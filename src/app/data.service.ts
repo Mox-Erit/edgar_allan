@@ -20,7 +20,7 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   getPosts(): Observable<Post[]> {
-    return this.http.get<Post[]>(`${this.baseUrl}/author,random/Edgar%20Allan;3`)
+    return this.http.get<Post[]>(`${this.baseUrl}/random/1`)
       .pipe(
         catchError((error: HttpErrorResponse) => {
           // Handle the error here

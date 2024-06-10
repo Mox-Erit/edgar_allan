@@ -1,44 +1,81 @@
-@font-face {
-    font-family: 'ITCAvantGardeStd-DemiObl';
-    src: url('assets/fonts/ITCAvantGardeStd-DemiObl.woff2') format('truetype');
-    font-weight: normal;
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
     font-style: normal;
-}
-@font-face {
-    font-family: 'ITCAvantGardeStd-DemiCn';
-    src: url('assets/fonts/ITCAvantGardeStd-DemiCn.woff2') format('truetype');
-    font-weight: normal;
+  }
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
     font-style: normal;
-}
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
 
 body {
     background-color: #fff7e3;
 }
-
-.title {
-    font-family: 'ITCAvantGardeStd-DemiObl';
-    letter-spacing: -7px;
-    line-height: 1.6;
+section {
+    padding: 30vh 10vw 0 10vw;
 }
-.display-5 {
-    font-family: 'ITCAvantGardeStd-DemiCn';
-    letter-spacing: -2px;
-    line-height: 1.4;
+.secondary-section {
+    padding: 0 10vw;
+}
+.header {
+    width: 600px;
+    font-size: 96px;
+    line-height: 1;
+    margin-bottom: 30px;
+}
+.description {
+    padding-left: 20px;
+}
+.title {
+    font-size: 96px;
+    margin-bottom: 10px;
+}
+.author {
+    font-size: 30px;
+    margin-bottom: 40px;
 }
 .lines {
-    font-size: 1.5em;
+    line-height: 2;
+    font-size: 20px;
+}
+.vector {
+    width: auto;
+    height: 600px;
+    position: absolute;
+    right: 300px;
+    top: 120px;
 }
 
 .spacer {
-    height: 100px;
+    height: 200px;
 }
 .small-spacer {
     height: 50px;
 }
 
 .bottom-strip {
+    margin-top: 70px;
     height: 6px;
-    width: 35vw;
+    width: 20vw;
     background-image: linear-gradient(90deg, #87C0AF 33.33%, #ECAA3C 33.33%, #ECAA3C 66.66%, #992D27 66.66%);
     background-repeat: no-repeat;
 }
@@ -50,19 +87,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.bg-black {
-    background-color: #333433 !important;
-}
-.text-white {
-    color: #fef7e6 !important;
-}
-
-.border-rad-left {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.border-rad-right {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
+.text-black {
+    color: #333433 !important;
 }
